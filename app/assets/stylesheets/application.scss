@@ -25,16 +25,25 @@ a:hover {
 /*
  * Base structure
  */
-
 html,
 body {
   height: 100%;
   background-color: #333;
+  font-family: 'Raleway', sans-serif;
 }
 body {
   color: #fff;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6, {
+  font-family: 'Amatic SC', cursive;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -183,11 +192,11 @@ body {
 
 }
 .about_image{
-  width: 500px;
-  height: 525px;
+  width: 250px;
+  height: 275px;
   position: relative;
   top: 25px;
-  left: 10px;
+  left: -150px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
@@ -196,14 +205,14 @@ body {
 .about_me{
   position: relative;
   top: 45px;
-  right: 15px;
+  right: 130px;
   color: black;
 }
 
 .bio{
   position: relative;
   top: 60px;
-  right: 20px; 
+  right: 125px; 
 }
 
 .card{
@@ -228,14 +237,16 @@ body {
 
 .about_skills{
   position: relative;
-  top: 100px;
+  top: -50px;
+  right: 580px;
   color: black;
   text-align: left;
 }
 
 .skill_items{
   position: relative;
-  top: 115px;
+  top: -60px;
+  right: 700px;
   text-align: left;
 }
 

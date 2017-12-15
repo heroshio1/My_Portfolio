@@ -40,4 +40,6 @@ gem 'carrierwave', '~> 1.1'
 gem 'mini_magick', '~> 4.8'
 gem 'carrierwave-aws', '~> 1.2'
 gem 'redis', '~> 4.0', '>= 4.0.1'
+gem 'coderay', '~> 1.1', '>= 1.1.2'
+gem 'redcarpet', '~> 3.4'
 
