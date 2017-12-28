@@ -21,7 +21,6 @@ group :development do
   gem 'listen', '~> 3.0.5'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-	gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
@@ -42,6 +41,6 @@ gem 'carrierwave-aws', '~> 1.2'
 gem 'redis', '~> 4.0', '>= 4.0.1'
 gem 'coderay', '~> 1.1', '>= 1.1.2'
 gem 'redcarpet', '~> 3.4'
-
+gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
 ruby "2.4.1"
 
