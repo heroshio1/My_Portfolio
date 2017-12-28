@@ -163,7 +163,7 @@ GEM
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
     orm_adapter (0.5.0)
-    petergate (1.7.5)
+    petergate (1.8.1)
       activerecord (> 4.0.0)
     pg (0.21.0)
     popper_js (1.10.8)
@@ -289,7 +289,7 @@ DEPENDENCIES
   kaminari (~> 1.0, >= 1.0.1)
   listen (~> 3.0.5)
   mini_magick (~> 4.8)
-  petergate (~> 1.7, >= 1.7.5)
+  petergate (~> 1.8, >= 1.8.1)
   pg (~> 0.18)
   pry-byebug
   puma (~> 3.0)
@@ -309,4 +309,4 @@ RUBY VERSION
    ruby 2.4.1p111
 
 BUNDLED WITH
-   1.14.6
+   1.16.0
