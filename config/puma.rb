@@ -22,7 +22,7 @@ environment ENV.fetch("RAILS_ENV") { "development" }
 # processes).
 
 #IF NOT WORK COMMENT 
- workers ENV.fetch("WEB_CONCURRENCY") { 2 }
+#workers ENV.fetch("WEB_CONCURRENCY") { 2 }
 
 # Use the `preload_app!` method when specifying a `workers` number.
 # This directive tells Puma to first boot the application and load code
@@ -32,7 +32,7 @@ environment ENV.fetch("RAILS_ENV") { "development" }
 # block.
 
 #IF NOT WORK COMMENT
- preload_app!
+# preload_app!
 
 # The code in the `on_worker_boot` will be called if you are using
 # clustered mode by specifying a number of `workers`. After each worker
@@ -42,9 +42,9 @@ environment ENV.fetch("RAILS_ENV") { "development" }
 # cannot share connections between processes.
 
 #IF NOT WORK COMMENT X3
- on_worker_boot do
-   ActiveRecord::Base.establish_connection if defined?(ActiveRecord)
- end
+# on_worker_boot do
+#   ActiveRecord::Base.establish_connection if defined?(ActiveRecord)
+# end
 
 # Allow puma to be restarted by `rails restart` command.
 plugin :tmp_restart

@@ -13,7 +13,6 @@ gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
   gem 'byebug', platform: :mri
-  gem 'pry-byebug'
 end
 
 group :development do
@@ -27,6 +26,7 @@ group :production do
 	gem 'pg', '~> 0.18'
 end
 
+gem 'pry-byebug'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'friendly_id', '~> 5.1.0'
 gem 'Jarys_satre_view_tool', '~> 0.1.2'
