@@ -28,7 +28,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  backgroun-color: firebrick;
   font-family: 'Raleway', sans-serif;
 }
 body {
@@ -175,7 +175,7 @@ h6, .h6, {
  */
  
  .AboutMePage{
-  background-color: blueviolet;
+  background-color: mediumblue;
   height: 600px;
   width: 1100px;
   position: relative;
@@ -196,7 +196,7 @@ h6, .h6, {
   height: 275px;
   position: relative;
   top: 25px;
-  left: -150px;
+  left: -75px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
@@ -237,8 +237,8 @@ h6, .h6, {
 
 .about_skills{
   position: relative;
-  top: -50px;
-  right: 580px;
+  top: -120px;
+  right: 425px;
   color: black;
   text-align: left;
 }
@@ -257,4 +257,26 @@ h6, .h6, {
 
 .tech-news > .card{
   padding: 30px;
+}
+
+#background{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  background: image-url('home_bg.jpg') no-repeat;
+  background-size: cover;
+}
+.cover {
+  background-color: black;
+  width: 60%;
+  margin: auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
 }
