@@ -17,8 +17,8 @@
 
 			<% if logged_in?(:site_admin) %>
 				<div>
-					<%= link_to fa_icon('pencil-square-o'), edit_blog_path(@portfolio_item) if logged_in?(:site_admin) %>
-					<%= link_to fa_icon('trash'), @portfolio_item, method: :delete, data: {confirm: "Are you sure?"} if logged_in?(:site_admin) %>
+					<%= link_to fa_icon('pencil-square-o'), edit_blog_path(@portfolio_item) %>
+					<%= link_to fa_icon('trash'), @portfolio_item, method: :delete, data: {confirm: "Are you sure?"} %>
 				</div>
 			<% end %>
 		</div>
